@@ -11,6 +11,14 @@ body {
     font-size: 0;
 }
 
+.fixed_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #00b7ff;
+}
+
 .header > * {
     display: inline-block;
     font-size: 16px;
@@ -20,7 +28,7 @@ body {
 }
 
 .main {
-    margin: 100px;
+    margin: 200px;
     text-align: center;
 }
 
@@ -64,3 +72,19 @@ button {
     background-color: #025157;
 }
 
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;    
+    align-items: center;
+}
+
+.promo > * {
+    margin: 20px;
+}
+
+.video_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
